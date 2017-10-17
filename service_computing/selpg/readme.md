@@ -53,13 +53,13 @@ go version: 	1.9
 测试1 	./selpg -s 1 -e 2 -l 5 tmp
 ```
 
-![test1](/home/dengzhc/图片/test1.png)
+![test1](./img/test1.png)
 
 ```shell
 测试2 ./selpg -s 2 -e 3 -l 5 
 ```
 
-<img src="/home/dengzhc/图片/test2.png">
+<img src="./img/test2.png">
 
 这是测试从标准输入到标准输出的功能，命令中设置每5行为一页，打印2-3页到标准输出，所以6-15行被打印出来
 
@@ -71,7 +71,7 @@ go version: 	1.9
 
 打印结果如下：
 
-<img src="/home/dengzhc/图片/test3.png">
+<img src="./img/test3.png">
 
 ```shell
 测试3：	./selpg -s 1 -e 2 -f -d PDF tmp1
@@ -79,19 +79,19 @@ go version: 	1.9
 
 首先创建带换页符号的文件tmp1
 
-![test4](/home/dengzhc/图片/test4.png)
+![test4](./img/test4.png)
 
 测试结果如下:
 
 第一页
 
-<img src="/home/dengzhc/图片/test4_1.png">
+<img src="./img/test4_1.png">
 
 ------
 
 第二页
 
-<img src="/home/dengzhc/图片/test4_2.png">
+<img src="./img/test4_2.png">
 
 ## 程序结构
 
